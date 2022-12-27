@@ -1069,3 +1069,54 @@ body#teaser {
   text-align: center;
   bottom: 0;
 }
+
+
+/**/
+/**/
+/*MEDIA QUERIES*/
+@media screen and (max-width: 800px) {
+  .big-text {
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  .small-text {
+    font-size: 13px;
+    line-height: 17px;
+  }
+
+  .big-text-red {
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  .small-text-red {
+    font-size: 13px;
+    line-height: 17px;
+  }
+
+  /*about*/
+  .subtitle-text1 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  
+  .about-content1 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .subtitle-text2 {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .about-content2 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .info-content {
+    font-size: 11px;
+  }
+}
