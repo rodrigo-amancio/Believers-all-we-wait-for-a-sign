@@ -238,10 +238,9 @@ body#book1 {
     width: 8px;
     border-radius: 50%;
     display: inline-block;
-    opacity: 85%;
     margin-left: 3px;
     border: 1px solid white;
-    opacity: 85%;
+    opacity: 90%;
     transition: 0.2s;
 }
 
@@ -250,9 +249,27 @@ body#book1 {
     opacity: 100%;
 }
 
+.circle-fill {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 3px;
+  border: 1px solid white;
+  background-color: white;
+  opacity: 90%;
+  transition: 0.2s;
+}
+
+.circle-fill:hover {
+  border: 1px solid red;
+  background-color: red;
+  opacity: 100%;
+}
+
 #circle1 .tooltip1 {
     visibility: hidden;
-    width: 50px;
+    width: 120px;
     color: red;
     text-align: center;
     padding: 2px 0;
@@ -265,7 +282,7 @@ body#book1 {
     z-index: 1;
     bottom: 100%;
     left: 50%;
-    margin-left: -75px;
+    margin-left: -110px;
     margin-bottom: 1px;
   }
   
@@ -326,7 +343,7 @@ body#book1 {
 
   #circle4 .tooltip4 {
     visibility: hidden;
-    width: 145px;
+    width: 180px;
     color: red;
     text-align: center;
     padding: 2px 0;
@@ -339,7 +356,7 @@ body#book1 {
     z-index: 1;
     bottom: 100%;
     left: 50%;
-    margin-left: -72px;
+    margin-left: -87px;
     margin-bottom: 1px;
   }
   
@@ -351,7 +368,7 @@ body#book1 {
 
   #circle5 .tooltip5 {
     visibility: hidden;
-    width: 155px;
+    width: 265px;
     color: red;
     text-align: center;
     padding: 2px 0;
@@ -364,7 +381,7 @@ body#book1 {
     z-index: 1;
     bottom: 100%;
     left: 50%;
-    margin-left: -60px;
+    margin-left: -110px;
     margin-bottom: 1px;
   }
   
@@ -375,7 +392,7 @@ body#book1 {
 
   #circle6 .tooltip6 {
     visibility: hidden;
-    width: 145px;
+    width: 220px;
     color: red;
     text-align: center;
     padding: 2px 0;
@@ -388,7 +405,7 @@ body#book1 {
     z-index: 1;
     bottom: 100%;
     left: 50%;
-    margin-left: -35px;
+    margin-left: -75px;
     margin-bottom: 1px;
   }
   
@@ -400,7 +417,7 @@ body#book1 {
 
   #circle7 .tooltip7 {
     visibility: hidden;
-    width: 65px;
+    width: 200px;
     color: red;
     text-align: center;
     padding: 2px 0;
@@ -413,7 +430,7 @@ body#book1 {
     z-index: 1;
     bottom: 100%;
     left: 50%;
-    margin-left: 20px;
+    margin-left: -45px;
     margin-bottom: 1px;
   }
   
@@ -448,31 +465,31 @@ body#book1 {
   margin-top: 50px;
 }
 
-  .big-text {
-    font-family: 'BoogyBrut';
-    font-size: 115px;
-    line-height: 115px;
-    letter-spacing: 3px;
-    color: white;
-    text-transform: uppercase;
-  }
+.big-text {
+  font-family: 'BoogyBrut';
+  font-size: 115px;
+  line-height: 115px;
+  letter-spacing: 3px;
+  color: white;
+  text-transform: uppercase;
+}
 
 .smaller-text {
-  width: 65%;
-  margin-left: 17.5%;
+  width: 60%;
+  margin-left: 20%;
   margin-top: 40px;
   text-align: justify;
   text-align-last: center;
   padding-bottom: 30px;
 }
 
-  .small-text {
-    font-family: 'NeueLight';
-    font-size: 16px;
-    line-height: 20px;
-    color: white;
-    word-spacing: 1px;
-  }
+.small-text {
+  font-family: 'NeueLight';
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  word-spacing: 1px;
+}
 
 .links {
   text-decoration: none;
@@ -558,21 +575,36 @@ body#book2 {
   width: 8px;
   border-radius: 50%;
   display: inline-block;
-  opacity: 85%;
   margin-left: 3px;
   border: 1px solid red;
-  opacity: 85%;
   transition: 0.2s;
 }
 
 .circle-red:hover {
   border: 1px solid white;
-  opacity: 100%;
+  opacity: 95%;
+}
+
+.circle-red-fill {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 3px;
+  border: 1px solid red;
+  background-color: red;
+  transition: 0.2s;
+}
+
+.circle-red-fill:hover {
+  border: 1px solid white;
+  background-color: white;
+  opacity: 95%;
 }
 
 #circle1-red .tooltip1-red {
   visibility: hidden;
-  width: 50px;
+  width: 120px;
   color: white;
   text-align: center;
   padding: 2px 0;
@@ -586,7 +618,7 @@ body#book2 {
   z-index: 1;
   bottom: 100%;
   left: 50%;
-  margin-left: -75px;
+  margin-left: -110px;
   margin-bottom: 1px;
 }
 
@@ -649,7 +681,7 @@ body#book2 {
 
 #circle4-red .tooltip4-red {
   visibility: hidden;
-  width: 145px;
+  width: 180px;
   color: white;
   text-align: center;
   padding: 2px 0;
@@ -663,7 +695,7 @@ body#book2 {
   z-index: 1;
   bottom: 100%;
   left: 50%;
-  margin-left: -72px;
+  margin-left: -87px;
   margin-bottom: 1px;
 }
 
@@ -675,7 +707,7 @@ body#book2 {
 
 #circle5-red .tooltip5-red {
   visibility: hidden;
-  width: 155px;
+  width: 265px;
   color: white;
   text-align: center;
   padding: 2px 0;
@@ -689,7 +721,7 @@ body#book2 {
   z-index: 1;
   bottom: 100%;
   left: 50%;
-  margin-left: -60px;
+  margin-left: -110px;
   margin-bottom: 1px;
 }
 
@@ -700,7 +732,7 @@ body#book2 {
 
 #circle6-red .tooltip6-red {
   visibility: hidden;
-  width: 145px;
+  width: 220px;
   color: white;
   text-align: center;
   padding: 2px 0;
@@ -714,7 +746,7 @@ body#book2 {
   z-index: 1;
   bottom: 100%;
   left: 50%;
-  margin-left: -35px;
+  margin-left: -75px;
   margin-bottom: 1px;
 }
 
@@ -726,7 +758,7 @@ body#book2 {
 
 #circle7-red .tooltip7-red {
   visibility: hidden;
-  width: 65px;
+  width: 200px;
   color: white;
   text-align: center;
   padding: 2px 0;
@@ -740,7 +772,7 @@ body#book2 {
   z-index: 1;
   bottom: 100%;
   left: 50%;
-  margin-left: 20px;
+  margin-left: -45px;
   margin-bottom: 1px;
 }
 
@@ -906,14 +938,14 @@ body#about {
 .subtitle1 {
   width: 65%;
   margin-left: 17.5%;
-  margin-top: 70px;
+  margin-top: 60px;
   text-align: justify;
   text-align-last: center;
 }
 
 .subtitle-text1 {
   font-family: 'BoogyBrut';
-  font-size: 22px;
+  font-size: 23px;
   line-height: 20px;
   color: black;
   letter-spacing: 1px;
@@ -921,8 +953,8 @@ body#about {
 }
 
 .content1 {
-  width: 65%;
-  margin-left: 17.5%;
+  width: 60%;
+  margin-left: 20%;
   margin-top: 25px;
   text-align: justify;
   text-align-last: center;
@@ -931,16 +963,16 @@ body#about {
 
 .about-content1 {
   font-family: 'NeueLight';
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 15px;
+  line-height: 20px;
   color: black;
   word-spacing: 1px;
 }
 
 .link_article {
   font-family: 'NeueLight';
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 15px;
+  line-height: 20px;
   color: black;
   word-spacing: 1px;
   text-decoration: underline;
@@ -972,7 +1004,7 @@ body#about {
 
 .subtitle-text2 {
   font-family: 'BoogyBrut';
-  font-size: 18px;
+  font-size: 19px;
   line-height: 20px;
   color: black;
   letter-spacing: 1px;
@@ -980,8 +1012,8 @@ body#about {
 }
 
 .content2 {
-  width: 65%;
-  margin-left: 17.5%;
+  width: 60%;
+  margin-left: 20%;
   margin-top: 3px;
   text-align: justify;
   text-align-last: center;
@@ -989,8 +1021,8 @@ body#about {
 
 .about-content2 {
   font-family: 'NeueLight';
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 15px;
+  line-height: 20px;
   color: black;
   word-spacing: 1px;
 }
