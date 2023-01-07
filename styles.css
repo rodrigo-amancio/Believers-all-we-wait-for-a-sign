@@ -30,6 +30,10 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /**/
 /**/
 /*SCROLL BAR*/
@@ -148,19 +152,33 @@ body#index {
 }
 
 .audio {
+  display: none;
+}
+
+.audio + label{
     position: fixed;
     bottom: 15px;
     margin-left: 1.5%;
-    height: 15px;
-    width: 15px;
-    background: url(media/volumehover.png);
+    height: 13px;
+    width: 13px;
+    background: url(media/no-sound.png) no-repeat;
     background-size: cover;
     opacity: 85%;
+    display: inline-block;
 }
 
-.audio:hover {
-    background: url(media/volumehover.png) -16px 0;
+.audio:hover + label{
+    background: url(media/no-sound-white.png) no-repeat;
     background-size: cover;
+}
+
+
+.audio:checked + label{
+  background: url(media/sound-on.png)  no-repeat;
+  background-size: cover;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
 }
 
 
@@ -893,6 +911,19 @@ body#about {
   margin-top: -4%;
 }
 
+.button-down {
+  position: absolute;
+  width: 0.65%;
+  margin-top: 46%;
+  margin-left: 49.675%;
+}
+
+.arrow {
+  width: 100%;
+  height: auto;
+  opacity: 95%;
+}
+
 /*buttons*/
 .home_button_about {
   color: black;
@@ -1004,7 +1035,7 @@ body#about {
 
 .subtitle-text2 {
   font-family: 'BoogyBrut';
-  font-size: 19px;
+  font-size: 20px;
   line-height: 20px;
   color: black;
   letter-spacing: 1px;
