@@ -493,10 +493,10 @@ body#book1 {
 }
 
 .smaller-text {
-  width: 60%;
-  margin-left: 20%;
+  width: 50%;
+  margin-left: 25%;
   margin-top: 40px;
-  text-align: justify;
+  text-align: center;
   text-align-last: center;
   padding-bottom: 30px;
 }
@@ -913,9 +913,9 @@ body#about {
 
 .button-down {
   position: absolute;
-  width: 0.65%;
+  width: 0.7%;
   margin-top: 46%;
-  margin-left: 49.675%;
+  margin-left: 49.65%;
 }
 
 .arrow {
@@ -977,24 +977,24 @@ body#about {
 .subtitle-text1 {
   font-family: 'BoogyBrut';
   font-size: 23px;
-  line-height: 20px;
+  line-height: 21px;
   color: black;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
 .content1 {
-  width: 60%;
-  margin-left: 20%;
+  width: 50%;
+  margin-left: 25%;
   margin-top: 25px;
-  text-align: justify;
+  text-align: center;
   text-align-last: center;
   padding-bottom: 30px;
 }
 
 .about-content1 {
   font-family: 'NeueLight';
-  font-size: 15px;
+  font-size: 16px;
   line-height: 20px;
   color: black;
   word-spacing: 1px;
@@ -1002,8 +1002,8 @@ body#about {
 
 .link_article {
   font-family: 'NeueLight';
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 21px;
   color: black;
   word-spacing: 1px;
   text-decoration: underline;
